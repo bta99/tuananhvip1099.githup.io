@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Shop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    body {
+        font-family: poppins;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="block-body">
+
+        </div>
+
+        <div class="header">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <div class="menu">
+                <a href="" class="home">Trang Chủ</a>
+                <a href="#all-product">Áo
+                    <ul class="menu-child">
+                        <li class="menuitem">ÁO 1</li>
+                        <li class="menuitem">ÁO 2</li>
+                        <li class="menuitem">ÁO 3</li>
+                    </ul>
+                </a>
+                <a href="">Quần
+                    <ul class="menu-child">
+                        <li class="menuitem">QUẦN 1</li>
+                        <li class="menuitem">QUẦN 2</li>
+                        <li class="menuitem">QUẦN 3</li>
+                    </ul>
+                </a>
+                <a href="">Giày
+                    <ul class="menu-child">
+                        <li class="menuitem">GIÀY 1</li>
+                        <li class="menuitem">GIÀY 2</li>
+                        <li class="menuitem">GIÀY 3</li>
+                    </ul>
+                </a>
+                <a href="">Phụ Kiện</a>
+            </div>
+
+
+            <div class="nav-mobile">
+                <i class="fas fa-bars"></i>
+                <div class="navcontent">
+                    <h4 style="text-align: center;">MENU</h4>
+                      <a href="#" id="trangchu">Trang Chủ</a>
+                      <a href="#">Áo <i class="fas fa-chevron-down">
+                      </i>
+                    <div class="nav-content">
+                        <ul class="nav-child">
+                            <li class="nav-child-item">Áo 1</li>
+                            <li class="nav-child-item">Áo 2</li>
+                            <li class="nav-child-item">Áo 3</li>
+                       </ul>
+                    </div>
+                    </a>
+                      <a href="#">Quần <i class="fas fa-chevron-down"></i>
+                        <div class="nav-content">
+                            <ul class="nav-child">
+                                <li class="nav-child-item">Quần 1</li>
+                                <li class="nav-child-item">Quần 2</li>
+                                <li class="nav-child-item">Quần 3</li>
+                           </ul>
+                        </div>
+                    </a>
+                      <a href="#">Giày <i class="fas fa-chevron-down"></i>
+                        <div class="nav-content">
+                            <ul class="nav-child">
+                                <li class="nav-child-item">Giày 1</li>
+                                <li class="nav-child-item">Giày 2</li>
+                                <li class="nav-child-item">Giày 3</li>
+                           </ul>
+                        </div>
+                    </a>
+                      <a href="#">Phụ Kiện <i class="fas fa-chevron-down" style="opacity: 0;"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-search-user">
+                <div class="search">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <div class="search-box">
+                        <div class="search-box-child">
+                            <h4 style="font-family: poppins;transform: translateX(15px);">Search</h4>
+                            <div class="btnsearch">
+                                <input type="text" class="ipsearch" placeholder=" Tìm kiếm sản phẩm..">
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="cart-box">
+                        <div class="cart-box-child">
+                            <h4 style="font-size: poppins;border-bottom: solid 1px gray;">Cart</h4>
+                            <p style="font-family: poppins;margin-top: 100px;text-align: center;">Cart Empty!</p>
+                            <h4 style="margin-top: 120px;text-align: center;">Total:0</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <a href="#"><i class="fas fa-user-circle"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slider-box" id="back">
+            <div class="slidecontent" style="opacity: 1;visibility: visible;">
+                <img src="img/coverweb (1).jpg" alt="">
+            </div>
+
+            <div class="slidecontent">
+                <img src="https://empireclothingclub.com/image/cache/catalog/slideshow/a-slider/all-new-basics-collection-out-now-1920x800.jpg"
+                    alt="">
+            </div>
+
+            <div class="slidecontent">
+                <img src="https://www.capital.com.ph/img/Web2.jpg" alt="">
+            </div>
+
+            <button class="btn pre"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="btn next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+
+
+        <div class="new-clothing">
+            <div class="left">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/bn/tops.jpg" alt="">
+            </div>
+
+            <div class="right">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/bn/bottoms%20(1).jpg" alt="">
+            </div>
+        </div>
+
+        <div class="hot-product">
+            <h3 style="display:block;width: 100%;text-align: center;word-wrap:5px;">HOT PRODUCT</h3>
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/koni_thumb.jpg" alt="">
+                <h5>KONI SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/derra_thumb.jpg" alt="">
+                <h5>DERRA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/sahara_thumb.jpg" alt="">
+                <h5>SAHARA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/ryker_trang.jpg" alt="">
+                <h5>RYKER POLO</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-product" id="all-product">
+            <h3 style="display:block;width: 100%;text-align: center;word-wrap:5px;">ALL PRODUCT</h3>
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/daliah_thumb.jpg" alt="">
+                <h5>KONI SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/caramia_thumb.jpg"
+                    alt="">
+                <h5>DERRA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/duahong_thumb.jpg"
+                    alt="">
+                <h5>SAHARA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/roman_thumb.jpg" alt="">
+                <h5>RYKER POLO</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/rang_soi_thumb.jpg"
+                    alt="">
+                <h5>KONI SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210616/pive_thumb.jpg" alt="">
+                <h5>DERRA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210625/labeaute_den_thumb.jpg"
+                    alt="">
+                <h5>SAHARA SHIRT</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="https://storage.googleapis.com/cdn.nhanh.vn/store1/41786/ps/20210625/labeaute_trang_thumb.jpg"
+                    alt="">
+                <h5>RYKER POLO</h5>
+                <h5>599.000đ</h5>
+                <div class="btnBuyNow">
+                    <button class="showdetail">Xem Chi Tiết <i class="fas fa-eye"></i></button>
+                    <button class="buynow">Mua Ngay <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>SHOP CATEGORY</h3>
+            <div class="category-item">
+                <button>SHOES</button>
+                <button>SHIRT</button>
+                <button>MAN</button>
+                <button>GIRL</button>
+            </div>
+        </div>
+
+        <div class="background-discover">
+            <div class="discover">
+                <h3>ABINSHOP</h3>
+                <h4>The World Of Fashion</h4>
+            </div>
+            <button class="btnDiscover">Discover More</button>
+        </div>
+
+        <div class="footer">
+            <div class="bussiness">
+                <div class="bussiness-item">
+                    <div class="icon-bussiness">
+                        <img src="http://unicus.vn/tp/T0295/img/service-1.png" alt="">
+                    </div>
+                    <h4 style="padding-top: 10px;font-family: roboto;font-size: 13px;font-weight: bold;">GIAO HÀNG TOÀN
+                        QUỐC</h4>
+                </div>
+
+                <div class="bussiness-item">
+                    <div class="icon-bussiness">
+                        <img src="http://unicus.vn/tp/T0295/img/service-2.png" alt="">
+                    </div>
+                    <h4 style="padding-top: 10px;font-family: roboto;font-size: 13px;font-weight: bold;">3 NGÀY ĐỔI TRẢ
+                    </h4>
+                    <h5>Đổi Trả Sản Phẩm Trong 3 Ngày</h5>
+                </div>
+
+                <div class="bussiness-item">
+                    <div class="icon-bussiness">
+                        <img src="http://unicus.vn/tp/T0295/img/service-3.png" alt="">
+                    </div>
+                    <h4 style="padding-top: 10px;font-family: roboto;font-size: 13px;font-weight: bold;">MUA
+                        HÀNG(9H30-21H30,T2-CN)</h4>
+                    <h5>Số Điện Thoại:0899784190</h5>
+                </div>
+
+                <div class="bussiness-item">
+                    <div class="icon-bussiness">
+                        <img src="http://unicus.vn/tp/T0295/img/service-3.png" alt="">
+                    </div>
+                    <h4 style="padding-top: 10px;font-family: roboto;font-size: 13px;font-weight: bold;">THỬ NGAY TẠI
+                        CỬA HÀNG</h4>
+                </div>
+            </div>
+           <h5 style="text-align: center;">Design By TAB</h5>
+        </div>
+
+        <div class="backtoHeader">
+            <a href="#back"><i class="fas fa-chevron-up">
+            </i></a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
